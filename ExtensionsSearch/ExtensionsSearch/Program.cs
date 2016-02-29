@@ -24,7 +24,7 @@ namespace SearchExtensions
                 Console.WriteLine("Por favor, coloque a pasta de origem da sua procura: ");
                 sourceFolder = Console.ReadLine();
 
-                Console.WriteLine("Coloque a extensão do arquivo da sua procura:");
+                Console.WriteLine("Coloque a extensão do arquivo da sua procura: (não precisa do ponto(.))");
                 extension = Console.ReadLine();
 
                 Console.WriteLine("Coloque a pasta de destino para a cópia dos arquivos encontrados:");
